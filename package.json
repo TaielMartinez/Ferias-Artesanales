@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tataicapo/Ferias-Artesanales.git"
+    "url": "git+https://github.com/tataicapo/Ferias-Artesanales"
   },
   "author": "Taiel Martinez",
   "license": "ISC",
-  "bugs": {
+  "bugs": { 
     "url": "https://github.com/tataicapo/Ferias-Artesanales/issues"
   },
   "homepage": "https://github.com/tataicapo/Ferias-Artesanales#readme"
