@@ -1,0 +1,19 @@
+{
+  "name": "ferias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tataicapo/Ferias-Artesanales.git"
+  },
+  "author": "Taiel Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tataicapo/Ferias-Artesanales/issues"
+  },
+  "homepage": "https://github.com/tataicapo/Ferias-Artesanales#readme"
+}
