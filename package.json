@@ -13,8 +13,12 @@
   },
   "author": "Taiel Martinez",
   "license": "ISC",
-  "bugs": { 
+  "bugs": {
     "url": "https://github.com/tataicapo/Ferias-Artesanales/issues"
   },
-  "homepage": "https://github.com/tataicapo/Ferias-Artesanales#readme"
+  "homepage": "https://github.com/tataicapo/Ferias-Artesanales#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
 }
