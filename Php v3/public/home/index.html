@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+	<title>Inicio</title>
+	
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1a312d3bb6.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../../src/css/navbar.css">
+	<link rel="stylesheet" href="../../src/css/home.css">
+	<link rel="manifest" href="../../src/mobile/manifest.json">
+	
+</head>
+<body>
+	
+	
+	<!--NAVBAR-->
+	<div class="fixed-top w-100">
+		<div class="row">
+			<!--navbar espacial-->
+			<div class="col-12 border-bottom" style="height: 6%; background-color: #FFA006">
+				<div class="row">
+					<div class="col-2 text-light text-navbar"><a href="../"><i class="fas fa-home ml-2"></i></a></div>
+					<div class="col-8 text-light text-center text-navbar">Inicio</div>
+					<div class="col-2"></div>
+				</div>
+			</div>
+			<!--navbar contextual-->
+			<div class="col-12 border-bottom bg-light text-center text-navbar-contextual text-dark">
+				<div class="row">
+					<div class="col-2 text-dark text-navbar"><!--<i class="fas fa-arrow-left ml-2"></i>--></div>
+					<div class="col-8 mt-1 mb-1">Menu principal</div>
+					<div class="col-2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br><br>
+	<a class="rounded btn border bg-light ml-3 mx-auto d-block" style="width: 70%;" href="../ferias_list/">
+		<img src="../../src/img/icono puesto.png" alt="" class="mx-auto d-block mt-3 mb-3 w-80">
+		<h2 class="text-center mb-3" style="font-size: 5vw">Reservar puesto</h2>
+	</a>
+	
+	<a class="rounded btn border bg-light mt-3 ml-3 mx-auto d-block" style="width: 70%;" href="../my_reservations/">
+		<img src="../../src/img/icono carrito.png" alt="" class="mx-auto d-block mt-3 mb-3 w-25">
+		<h2 class="text-center mb-3" style="font-size: 5vw">Mis reservas</h2>
+	</a>
+
+	<div class="home_admin_btn"></div>
+	
+	<a class="input_login_out rounded btn border bg-light text-danger mt-3 ml-3 mb-4 mx-auto d-block" style="width: 70%;" href="#">
+		<h2 class="text-center mb-3 mt-3" style="font-size: 5vw">Cerrar Sesion</h2>
+	</a>
+
+
+  
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="../../src/js/login_out.js"></script>
+	<script src="../../src/js/home.js"></script>
+
+</body>
+</html>

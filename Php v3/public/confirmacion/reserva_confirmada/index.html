@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+	<title>>Paso 3 - Se confirmo la reserva</title>
+	
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1a312d3bb6.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../../../src/css/navbar.css">
+	<link rel="stylesheet" href="../../../src/css/home.css">
+	<link rel="stylesheet" href="../../src/mobile/manifest.json">
+	
+</head>
+<body>
+	
+	
+	<!--NAVBAR-->
+	<div class="fixed-top w-100">
+		<div class="row">
+			<!--navbar espacial-->
+			<div class="col-12 border-bottom" style="height: 6%; background-color: #FFA006">
+				<div class="row">
+					<div class="col-2 text-light text-navbar"><a href="../../home/"><i class="fas fa-home ml-2"></i></a></div>
+					<div class="col-8 text-light text-center text-navbar">Estado de la reserva</div>
+					<div class="col-2"></div>
+				</div>
+			</div>
+			<!--navbar contextual-->
+			<div class="col-12 border-bottom bg-light text-center text-navbar-contextual text-dark">
+				<div class="row">
+					<div class="col-2 text-dark text-navbar"><!--<a href="../ferias_list/"><i class="fas fa-arrow-left ml-2"></i></a>--></div>
+					<div class="col-8 mt-1 mb-1">Paso 3 - Se confirmo la reserva</div>
+					<div class="col-2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="font-size: 8vh; color: transparent">a </div>
+	<div class="container mt-3">
+		<div class="card mb-3" >
+			<div class="card-body text-center">
+				<div style="font-size: 5vh" class="font-weight-bold text-success">FELICITACIONES!</div>
+				<div style="font-size: 3vh" class="mt-2">La reserva se a completado con exito</div>
+			</div>
+			<a class="input_confirmar btn btn-secondary ml-4 mr-4 mb-2 mt-4" href="../../home/" role="button">Ir al Inicio</a>
+			<a class="input_confirmar btn btn-info ml-4 mr-4 mb-2 mt-1" href="../../ferias_list/" role="button">Ver otras Ferias</a>
+			<a class="input_confirmar btn btn-warning ml-4 mr-4 mb-4 mt-1" href="../../my_reservations/" role="button">Ver mi lista de reservas</a>
+		</div>
+	</div>
+
+
+  
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script>
+		if(localStorage.getItem('login_mail') === null || localStorage.getItem('login_pass') === null || localStorage.getItem('login_dni') === null){
+			window.location.replace("../../../");
+		}
+	</script>
+</body>
+</html>

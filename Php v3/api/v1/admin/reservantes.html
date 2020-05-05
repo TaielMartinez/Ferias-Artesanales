@@ -1,0 +1,62 @@
+<!--NAVBAR-->
+<div class="fixed-top w-100">
+    <div class="row">
+        <!--navbar espacial-->
+        <div class="col-12 border-bottom" style="height: 6%; background-color: #FFA006">
+            <div class="row">
+                <div class="col-2 text-light text-navbar"><a href="../home/"><i class="fas fa-home ml-2"></i></a></div>
+                <div class="col-8 text-light text-center text-navbar">Detalles de la feria</div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        <!--navbar contextual-->
+        <div class="col-12 border-bottom bg-light text-center text-navbar-contextual text-dark">
+            <div class="row">
+                <div class="col-2 text-dark text-navbar"><a href="../ferias_list/"><i class="fas fa-arrow-left ml-2"></i></a></div>
+                <div class="col-8 mt-1 mb-1">Paso 2 - Confirmar la reserva</div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="font-size: 8vh; color: transparent">a </div>
+
+
+<div class="container mt-3">
+    <div class="card mb-3" >
+        <div class="card-body text-center">
+            <div style="font-size: 3vh" class="font-weight-bold">Datos del puesto:</div>
+            <div  style="font-size: 2.7vh">
+                <span class=" font-weight-bold">Nombre: </span>
+                <span class="json_nombre"></span>
+            </div>
+            <div  style="font-size: 2.7vh">
+                <span class=" font-weight-bold">Ubicacion: </span>
+                <span class="json_ubicacion"></span>
+            </div>
+            <div  style="font-size: 2.7vh">
+                <span class=" font-weight-bold">Fecha: </span>
+                <span class="json_fecha"></span>
+            </div>
+            <div  style="font-size: 2.7vh">
+                <span class=" font-weight-bold">Disponibilidad: </span>
+                <span class="json_disponibilidad"></span>
+            </div>
+            <div  style="font-size: 2.7vh">
+                <span class=" font-weight-bold">Precio: </span>
+                <span class="json_precio"></span>
+            </div>
+            <div class="mt-3" style="font-size: 2.7vh">
+                <span class=" font-weight-bold">Descripcion: </span>
+                <p class="json_descripcion text-justify"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ferias_list_ajax container"></div>
+
+
+
+<script src="../../src/js/reservantes.js"></script>

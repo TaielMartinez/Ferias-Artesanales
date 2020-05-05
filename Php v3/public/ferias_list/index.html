@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+	<title>Lista de ferias</title>
+	
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1a312d3bb6.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../../src/css/navbar.css">
+	<link rel="stylesheet" href="../../src/css/home.css">
+	<link rel="stylesheet" href="../../src/mobile/manifest.json">
+	
+</head>
+<body>
+	
+	
+	<!--NAVBAR-->
+	<div class="fixed-top w-100">
+		<div class="row">
+			<!--navbar espacial-->
+			<div class="col-12 border-bottom" style="height: 6%; background-color: #FFA006">
+				<div class="row">
+					<div class="col-2 text-light text-navbar"><a href="../home/"><i class="fas fa-home ml-2"></i></a></div>
+					<div class="col-8 text-light text-center text-navbar">Lista de ferias</div>
+					<div class="col-2"></div>
+				</div>
+			</div>
+			<!--navbar contextual-->
+			<div class="col-12 border-bottom bg-light text-center text-navbar-contextual text-dark">
+				<div class="row">
+					<div class="col-2 text-dark text-navbar"><a href="../home/"><i class="fas fa-arrow-left ml-2"></i></a></div>
+					<div class="col-8 mt-1 mb-1">Paso 1 - Elegir la feria</div>
+					<div class="col-2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="font-size: 8vh; color: transparent">a </div>
+	<div class="container">
+		<div class="card mb-3" style="font-size: 3vh">
+			<div class="card-body text-center font-weight-bold">
+				Lista de Ferias disponibles
+			</div>
+		</div>
+		
+		<div class="ferias_list_ajax"></div>
+		
+	</div>
+
+
+  
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="../../src/js/ferias_list.js"></script>
+</body>
+</html>
